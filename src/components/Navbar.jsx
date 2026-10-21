@@ -1,9 +1,15 @@
+
+import { Plane } from "lucide-react";
+
 function Navbar(){
     return(
         <>
           <div className="navbar">
 
-            <h2 className="logo"> ✳ Wanderly</h2>
+                <div className="logo">
+        <Plane size={28} color="#2563eb" />
+        <h2>TravelGo</h2>
+      </div>
 
             <div className="nav-links">
 
