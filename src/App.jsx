@@ -1,9 +1,10 @@
 import Navbar from './components/navbar'
-import { Plane } from "lucide-react";
+
 import Hero from './components/hero';
 
 import './App.css'
 import Destination from './components/destination';
+import Packages from './components/Packages';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
      <Navbar/>
      <Hero/>
      <Destination/>
+     <Packages/>
                 
     </>
   )
