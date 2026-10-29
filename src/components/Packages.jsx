@@ -1,3 +1,6 @@
+import './packages.css'
+
+
 function Packages() {
   const packages = [
     {
