@@ -6,6 +6,7 @@ import "./App.css";
 import Destination from "./components/destination";
 import Packages from "./components/Packages";
 import Contact from './components/Contact';
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Destination />
       <Packages />
       <Contact />
+      <Footer/>
     </>
   );
 }
