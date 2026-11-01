@@ -1,3 +1,5 @@
+import "./contact.css";
+
 function Contact() {
   return (
     <>
@@ -18,7 +20,7 @@ function Contact() {
             <h3>Let's Plan Your Trip !</h3>
             <p>
               Tell us about your dream destination. We will help you make it
-              unforgettable
+              unforgettable.
             </p>
 
             <div className="contact-detail">
@@ -36,17 +38,16 @@ function Contact() {
               <p>Pune, Maharashtra, India</p>
             </div>
           </div>
-            
-            <form className="contact-form">
-                <input type="text" placeholder="Your Name" />
-                <input type="email" placeholder="your Email" />
-                <input type="text" placeholder="Your Destination" />
 
-                <textarea placeholder="Your Message" rows="5" ></textarea>
+          <form className="contact-form">
+            <input type="text" placeholder="Your Name" />
+            <input type="email" placeholder="your Email" />
+            <input type="text" placeholder="Your Destination" />
 
-                <button type="submit"> Send Message</button>
-            </form>
+            <textarea placeholder="Your Message" rows="5"></textarea>
 
+            <button type="submit"> Send Message</button>
+          </form>
         </div>
       </section>
     </>
