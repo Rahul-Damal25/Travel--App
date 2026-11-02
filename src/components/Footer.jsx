@@ -6,9 +6,8 @@ function Footer() {
       <footer className="footer">
         <div className="footer-container">
           <div className="footer-about">
-            <h2>
-              Travel <span>Go</span>✈️
-            </h2>
+            <h2 className="footer-logo">Travel<span>Go</span> <span className="footer-plane">✈</span></h2>
+            
             <p>
               Explore beautiful destinations and create unforgettable memories
               with Travel Go.
